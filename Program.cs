@@ -11,10 +11,13 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             string name = ("Egenii ");
-            string surName = ("Maruev");
+            string surname = ("Maruev");
             string fio = name + surName;
             Console.WriteLine("ФИО : {0}",fio);
-            fio = surName + name;
+            string rightName;
+            name = surname;
+            surname = rightName;
+            rightName = name;           
             Console.WriteLine("ФИО : {0}",fio);
         }
     }
